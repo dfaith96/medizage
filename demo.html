@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo | Medizage</title>
+  <meta name="description" content="Explore the Medizage demo for AI note organization, medical summaries, documentation templates, and clinical education support.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="subhero">
+      <nav class="topbar">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">M</span>
+          <span class="brand-name">Medizage</span>
+        </a>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="products.html">Products & Programs</a>
+          <a href="pricing.html">Pricing</a>
+          <a class="active" href="demo.html">Demo</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
+      <div class="subhero-copy">
+        <p class="eyebrow">Demo Page</p>
+        <h1>Preview how Medizage turns raw clinical text into usable documentation support.</h1>
+        <p>Switch between views to see how the platform organizes notes, summarizes information, structures templates, and supports clinical learning.</p>
+      </div>
+      <div class="subhero-art">
+        <img class="svg-art" src="assets/care-structure.svg" alt="Medizage demo illustration">
+      </div>
+    </header>
+
+    <main>
+      <section class="section demo-grid">
+        <div class="summary-card">
+          <p class="eyebrow">Demo Input</p>
+          <h2>“Patient note contains medication changes, symptom observations, lab mentions, and incomplete nursing follow-up entries.”</h2>
+          <div class="chip-row">
+            <span>Organize</span>
+            <span>Summarize</span>
+            <span>Template</span>
+            <span>Explain</span>
+          </div>
+        </div>
+
+        <div class="interactive-card">
+          <div class="tab-row" role="tablist" aria-label="Medizage demo views">
+            <button class="tab-button active" data-topic="notes" type="button">Notes</button>
+            <button class="tab-button" data-topic="summary" type="button">Summary</button>
+            <button class="tab-button" data-topic="template" type="button">Template</button>
+            <button class="tab-button" data-topic="education" type="button">Education</button>
+          </div>
+          <div class="demo-image-wrap">
+            <img class="svg-art" src="assets/clinical-dashboard.svg" alt="Clinical information dashboard illustration">
+          </div>
+          <div class="demo-body">
+            <p class="demo-label" id="demo-label">Note Organization</p>
+            <h3 id="demo-title">Turn fragmented records into a clearer patient narrative.</h3>
+            <p id="demo-text">Medizage restructures note fragments into a more coherent documentation flow so the care team can review key information faster.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms & Conditions</a>
+      </div>
+      <p>© 2026 Medizage. All rights reserved.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
